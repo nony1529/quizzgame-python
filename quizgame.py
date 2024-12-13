@@ -41,7 +41,7 @@ for pertanyaan1 in pertanyaan:
 
     nomor_pertanyaan += 1
 
-#Tampilan Skor
+#Tampilan Awalan Skor
 print("=" * 45)
 print("\t\tHASIL JAWABAN")
 print("=" * 45)
