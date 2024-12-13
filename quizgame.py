@@ -41,15 +41,16 @@ for pertanyaan1 in pertanyaan:
 
     nomor_pertanyaan += 1
 
-#Tampilan Awalan Skor
+#Tampilan Awal Skor
 print("=" * 45)
 print("\t\tHASIL JAWABAN")
 print("=" * 45)
 
 #Menampilkan Apa Saja Yang Kita Jawab
-print("Tebakan Anda\t  = ", end="")
+print("Tebakan Anda\t = ", end="")
 for menebak1 in menebak:
     print(menebak1, end =" ") 
+print()
 
 #Menampilkan Skor
 skor = int(skor / len(jawaban) * 100)
